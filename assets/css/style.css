@@ -1,0 +1,308 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*problem #1*/
+
+.black-container {
+	background-color: black;
+	margin: 10px auto;
+	width: 700px;
+	height: 100%;
+	padding: 10px;
+}
+
+.grey-box {
+	background-color: gray;
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	float: left;
+}
+
+/*problem #2*/
+
+.caption-box {
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.white-bordered {
+	border: 1px solid white;
+	width: 150px;
+	height: 150px;
+	padding: 10px 10px 50px 10px;
+	box-sizing: content-box;
+	float: left;
+	margin: 10px;
+}
+
+.caption {
+	color: white;
+	text-align: center;
+}
+
+/*problem #3*/
+
+.heading {
+	margin: 20px 0;
+	padding: 0;
+	font-size: 2em;
+	font-weight: 900;
+	color: white; /*indicated for problem #4*/
+}
+
+/*.content {
+	color: white;
+}*/
+
+#image-box-1 {
+	margin: 0 10px 0 0;
+	margin-right: 10px;
+}
+
+p, .italized {
+	color: white;
+	padding-bottom: 15px;
+}
+
+/*problem #4*/
+
+.italized {
+	font-style: italic;
+}
+
+div[name="left"] {
+	width: 20%;
+	float: left;
+}
+
+#image-box-2 {
+	margin: 0 10px 0 0;
+	margin-right: 10px;
+}
+
+#right {
+	width: 77%;
+	float: left;
+}
+
+/*problem #5*/
+
+.left {
+	width: 7%;
+	float: left;
+}
+
+.right {
+	width: 92%;
+	float: left;
+}
+
+.avatar {
+	background-color: gray;
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+textarea {
+	margin: 0 10px 5px 5px;
+	padding: 5px;
+	width: 100%;
+	float: left;
+}
+
+.button {
+	float: right;
+}
+
+/*problem #6*/
+
+.avatar-name, .title {
+	font-weight: 600;
+	letter-spacing: .3px;
+}
+
+:link {
+	color: blue;
+}
+
+.comment-button {
+	margin-bottom: 20px;
+}
+
+.left-2 {
+	width: 7%;
+	float: left;
+}
+
+.right-2 {
+	width: 91%;
+	float: left;
+	margin-left: 10px;
+}
+
+.dot {
+	height: 3px;
+  	width: 3px;
+ 	background-color: #bbb;
+ 	border-radius: 50%;
+  	display: inline-block;
+  	margin-bottom: 3px;
+}
+
+.reply {
+	border-left: 1px solid white;
+	padding-left: 10px;
+}
+
+/*problem #7*/
+
+.black-container-2 {
+	background-color: black;
+	margin: 10px auto;
+	width: 500px;
+	height: 100%;
+	padding: 10px;
+}
+
+.left-3 {
+	width: 40%;
+	float: left;
+}
+
+.right-3 {
+	width: 59%;
+	float: left;
+}
+
+small {
+	color: white;
+	display: block;
+	margin: 0 10px;
+}
+
+.video-box {
+	background-color: grey;
+	height: 100px;
+	width: 100%;
+}
+
+.title {
+	padding-bottom: 0;
+	margin: 0 10px;
+}
+
+/*problem #8*/
+.left-4 {
+	width: 59%;
+	float: left;
+	margin-left: -10px; /*consult*/
+}
+
+.right-4 {
+	width: 40%;
+	float: right;
+}
+
+/*problem 9*/
+
+.left-5 {
+	width: 30%;
+	float: left;
+}
+
+.left-5 > p {
+	margin-right: 10px;
+}
+
+.right-5 {
+	width: 69%;
+	float: left;
+}
+
+.grey-box-2 {
+	background-color: gray;
+	width: 150px;
+	height: 150px;
+	margin: 0 5px 5px 0;
+	float: left;
+}
+
+.remove-margin-top {
+	margin-top: 0;
+}
+
+/*problem 10*/
+
+.black-container-3 {
+	background-color: black;
+	margin: 10px auto;
+	width: 1000px;
+	height: 100%;
+	padding: 10px;
+}
+
+.left-6 {
+	width: 60%;
+	float: left;
+	height: 100%;
+}
+
+.right-6 {
+	width: 40%;
+	float: right;
+	height: 100%;
+}
+
+.white-bordered-2 {
+	border: 1px solid white;
+	width: 150px;
+	padding: 5px;
+	margin: 10px;
+	box-sizing: content-box;
+	float: left;
+}
+
+.grey-box-3 {
+	background-color: grey;
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+
+.caption-2 {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.grey-box-4 {
+	background-color: grey;
+	height: 200px;
+	width: 100%;
+}
+
+.menu-buttons {
+	margin: 20px 5px 20px 0;
+}
+
+#image-box-3 {
+	background-color: grey;
+	height: 100px;
+	width: 150px;
+	margin-right: 5px;
+	float: left;
+}
+
+
+
+
+.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+}
