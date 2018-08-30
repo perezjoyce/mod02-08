@@ -241,6 +241,7 @@ small {
 }
 
 /*problem 10*/
+/*Alternative Solution: put grey-box in grey-container*/
 
 .black-container-3 {
 	background-color: black;
